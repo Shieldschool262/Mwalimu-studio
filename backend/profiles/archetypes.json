@@ -1,0 +1,36 @@
+{
+  "archetypes": {
+    "A-Language": {
+      "name": "Language",
+      "has_theme": true,
+      "code_depth": 3,
+      "has_rubric": false,
+      "allow_4col": false,
+      "stop_markers": ["appendix", "references", "glossary", "bibliography", "sample assessment", "index", "acknowledgement"]
+    },
+    "B-Religious": {
+      "name": "Religious",
+      "has_theme": false,
+      "code_depth": 2,
+      "has_rubric": true,
+      "allow_4col": false,
+      "stop_markers": ["appendix", "references", "glossary", "bibliography", "sample assessment", "index", "acknowledgement"]
+    },
+    "C-ScienceMaths": {
+      "name": "ScienceMaths",
+      "has_theme": false,
+      "code_depth": 2,
+      "has_rubric": false,
+      "allow_4col": false,
+      "stop_markers": ["appendix", "references", "glossary", "bibliography", "sample assessment", "index", "acknowledgement"]
+    },
+    "D-Practical": {
+      "name": "Practical",
+      "has_theme": false,
+      "code_depth": 2,
+      "has_rubric": false,
+      "allow_4col": true,
+      "stop_markers": ["appendix", "references", "glossary", "bibliography", "sample assessment", "index", "acknowledgement"]
+    }
+  }
+}

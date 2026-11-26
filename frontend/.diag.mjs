@@ -1,0 +1,12 @@
+import { chromium } from "playwright";
+const b = await chromium.launch({ headless: true });
+const p = await b.newPage({ viewport: { width: 1440, height: 950 } });
+p.on("pageerror", e => console.log("PAGEERROR:", e.message));
+p.on("console", m => { if (m.type()==="error") console.log("CONSOLE:", m.text()); });
+await p.goto("http://localhost:5198/#plan", { waitUntil: "domcontentloaded" });
+await p.waitForTimeout(2500);
+console.log("URL:", p.url());
+console.log("body text:", (await p.locator("body").innerText()).slice(0, 800));
+console.log("testids:", (await p.locator("[data-testid]").evaluateAll(els => els.slice(0,40).map(e=>e.getAttribute("data-testid")))).join(", "));
+await p.screenshot({ path: "C:/tmp/diag.png", fullPage: false });
+await b.close();

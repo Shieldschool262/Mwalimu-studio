@@ -1,0 +1,22 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch({ headless: true });
+const p = await b.newPage();
+let pass=0, fail=0; const check=(n,c,d='')=>{if(c){pass++;console.log('PASS:',n,d);}else{fail++;console.log('FAIL:',n,d);}};
+await p.goto('http://127.0.0.1:5174/#/login');
+await p.waitForTimeout(600);
+await p.fill('[data-testid="auth-email"]','augustinekyule@gmail.com');
+await p.fill('[data-testid="auth-password"]','Teacher123');
+await p.click('[data-testid="auth-submit"]');
+await p.waitForTimeout(1200);
+console.log('after login URL:', p.url());
+console.log('after login body:', (await p.locator('body').innerText()).slice(0,400));
+await p.goto('http://127.0.0.1:5174/#/dashboard');
+await p.waitForTimeout(2200);
+const stat = await p.getByTestId('dash-stat-coverage').innerText();
+const banner = await p.getByTestId('dash-empty-gaps').count()
+  ? await p.getByTestId('dash-empty-gaps').innerText() : '(no empty banner - gaps exist)';
+check('coverage stat not forced to 0%', stat !== '0%', stat);
+check('no false 100% claim', !banner.includes('All planned lessons taught. Coverage 100%'), banner);
+console.log('Banner text:', banner);
+console.log(`\n${pass}/${pass+fail} checks passed`);
+await b.close(); if(fail) process.exit(1);

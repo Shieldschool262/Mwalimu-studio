@@ -1,0 +1,159 @@
+{
+  "version": "cbe-scheme-v1",
+  "kind": "scheme",
+  "name": "KICD Scheme of Work (CBC)",
+  "title": "SCHEME OF WORK",
+  "landscape": true,
+  "paperSize": "A4",
+  "header": {
+    "fields": [
+      {
+        "key": "institution",
+        "label": "Institution / School",
+        "source": "teacher",
+        "required": true,
+        "placeholder": "e.g. Nairobi Primary School"
+      },
+      {
+        "key": "grade",
+        "label": "Grade",
+        "source": "source",
+        "required": true
+      },
+      {
+        "key": "learningArea",
+        "label": "Learning Area",
+        "source": "source",
+        "required": true
+      },
+      {
+        "key": "term",
+        "label": "Term",
+        "source": "teacher",
+        "required": true
+      },
+      {
+        "key": "year",
+        "label": "Year",
+        "source": "teacher",
+        "required": true,
+        "placeholder": "e.g. 2025"
+      },
+      {
+        "key": "teacherName",
+        "label": "Teacher Name",
+        "source": "profile",
+        "required": false
+      },
+      {
+        "key": "tscNo",
+        "label": "TSC No.",
+        "source": "profile",
+        "required": false
+      },
+      {
+        "key": "generalOutcomes",
+        "label": "General Term Instructional Learning Outcomes",
+        "source": "derived",
+        "required": false,
+        "derivation": "first_outcome_of_each_sub_strand",
+        "editable": true
+      }
+    ]
+  },
+  "columns": [
+    {
+      "key": "week",
+      "index": 0,
+      "label": "Week",
+      "source": "allocated",
+      "width": "6%",
+      "align": "center"
+    },
+    {
+      "key": "lesson",
+      "index": 1,
+      "label": "Lesson",
+      "source": "allocated",
+      "width": "6%",
+      "align": "center"
+    },
+    {
+      "key": "strand",
+      "index": 2,
+      "label": "Strand / Sub-Strand",
+      "source": "source:strand/subStrand",
+      "width": "14%"
+    },
+    {
+      "key": "outcomes",
+      "index": 3,
+      "label": "Specific Learning Outcomes",
+      "source": "source:specific_learning_outcomes",
+      "verbatim": true,
+      "width": "16%"
+    },
+    {
+      "key": "experiences",
+      "index": 4,
+      "label": "Learning Experiences",
+      "source": "source:suggested_learning_experiences",
+      "verbatim": true,
+      "width": "16%"
+    },
+    {
+      "key": "kiqs",
+      "index": 5,
+      "label": "Key Inquiry Questions",
+      "source": "source:key_inquiry_questions",
+      "verbatim": true,
+      "width": "14%"
+    },
+    {
+      "key": "resources",
+      "index": 6,
+      "label": "Learning Resources",
+      "source": "source:suggested_learning_resources",
+      "fallback": "— Teacher to fill",
+      "fallbackTone": "grey",
+      "editable": true,
+      "blocksGeneration": false,
+      "width": "10%"
+    },
+    {
+      "key": "assessment",
+      "index": 7,
+      "label": "Assessment",
+      "source": "source:assessment",
+      "fallback": "Observation, oral questions",
+      "fallbackTone": "normal",
+      "editable": true,
+      "blocksGeneration": false,
+      "width": "10%"
+    },
+    {
+      "key": "reflection",
+      "index": 8,
+      "label": "Reflection (Teacher to fill after teaching)",
+      "source": "teacher",
+      "alwaysEmpty": true,
+      "neverAiFill": true,
+      "placeholder": "To be filled after lesson",
+      "editable": true,
+      "width": "8%"
+    }
+  ],
+  "allocation": {
+    "lessonsField": "lessons",
+    "defaultLessons": 4,
+    "defaultFlag": "Lessons not in source - assumed 4, edit",
+    "overflowBehavior": "warn_never_truncate",
+    "weekLabelWhenSpanning": "range"
+  },
+  "footer": {
+    "sourceLine": "Sources: {sources}",
+    "templateLine": "Template: {templateVersion}",
+    "generatedLine": "Generated: {generatedAt}",
+    "citationNote": "Citations: Each row cites SourceChunk pageNumber"
+  }
+}

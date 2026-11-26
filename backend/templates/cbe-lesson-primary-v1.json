@@ -1,0 +1,309 @@
+{
+  "version": "cbe-lesson-primary-v1",
+  "kind": "lesson",
+  "name": "KICD Lesson Plan - Primary (PP1 - Grade 6)",
+  "title": "LESSON PLAN",
+  "gradeBand": "primary",
+  "grades": "PP1 - Grade 6",
+  "landscape": false,
+  "paperSize": "A4",
+  "defaultDuration": 35,
+  "durationOptions": [
+    35
+  ],
+  "durationLabel": "Duration (minutes)",
+  "developmentHint": "Activity-based: song, play, manipulatives, pair work",
+  "outcomesHeading": "By the end of the lesson, the learner should be able to:",
+  "sourceOutcomesHeading": "Source: By the end of the sub-strand, the learner should be able to:",
+  "header": {
+    "fields": [
+      {
+        "key": "school",
+        "label": "Institution / School",
+        "source": "plan",
+        "editable": true
+      },
+      {
+        "key": "grade",
+        "label": "Grade",
+        "source": "plan",
+        "editable": true
+      },
+      {
+        "key": "learningArea",
+        "label": "Learning Area",
+        "source": "plan",
+        "editable": true
+      },
+      {
+        "key": "term",
+        "label": "Term",
+        "source": "plan",
+        "editable": true
+      },
+      {
+        "key": "year",
+        "label": "Year",
+        "source": "plan",
+        "editable": true
+      },
+      {
+        "key": "date",
+        "label": "Date",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "time",
+        "label": "Time",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "duration",
+        "label": "Duration",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "classSize",
+        "label": "Class",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "rollBoys",
+        "label": "Roll - Boys",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "rollGirls",
+        "label": "Roll - Girls",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "rollTotal",
+        "label": "Roll - Total",
+        "source": "teacher",
+        "editable": true
+      },
+      {
+        "key": "teacherName",
+        "label": "Teacher",
+        "source": "plan",
+        "editable": true
+      },
+      {
+        "key": "tscNo",
+        "label": "TSC No.",
+        "source": "plan",
+        "editable": true
+      }
+    ]
+  },
+  "development": {
+    "key": "development",
+    "title": "10. Lesson Development",
+    "hint": "Activity-based: song, play, manipulatives, pair work",
+    "introduction": {
+      "time": "5 min"
+    },
+    "steps": [
+      {
+        "key": "step1",
+        "title": "Step 1",
+        "time": ""
+      },
+      {
+        "key": "step2",
+        "title": "Step 2",
+        "time": ""
+      },
+      {
+        "key": "step3",
+        "title": "Step 3",
+        "time": ""
+      }
+    ],
+    "conclusion": {
+      "time": "5 min"
+    },
+    "totalMinutes": 25
+  },
+  "sections": [
+    {
+      "key": "outcomes",
+      "index": 4,
+      "title": "Specific Learning Outcomes",
+      "kind": "slo",
+      "source": "derived",
+      "reset": "source",
+      "editable": true,
+      "placeholder": "a) ..."
+    },
+    {
+      "key": "kiq",
+      "index": 5,
+      "title": "Key Inquiry Question(s)",
+      "kind": "text",
+      "source": "source",
+      "reset": "source",
+      "editable": true,
+      "placeholder": "Key inquiry question"
+    },
+    {
+      "key": "competencies",
+      "index": 6,
+      "title": "Core Competencies",
+      "kind": "text",
+      "source": "source",
+      "reset": "source",
+      "editable": true,
+      "hint": "1-2 focal competencies from source.",
+      "placeholder": "1-2 focal competencies"
+    },
+    {
+      "key": "values",
+      "index": 7,
+      "title": "Values",
+      "kind": "text",
+      "source": "source",
+      "reset": "source",
+      "editable": true,
+      "hint": "1-2 values from source.",
+      "placeholder": "1-2 values"
+    },
+    {
+      "key": "pcis",
+      "index": 8,
+      "title": "Pertinent & Contemporary Issues (PCIs)",
+      "kind": "text",
+      "source": "source",
+      "reset": "source",
+      "editable": true,
+      "hint": "1-2 PCIs from source.",
+      "placeholder": "1-2 PCIs"
+    },
+    {
+      "key": "resources",
+      "index": 9,
+      "title": "Learning Resources",
+      "kind": "text",
+      "source": "source",
+      "reset": "source",
+      "editable": true,
+      "placeholder": "Learning resources"
+    },
+    {
+      "key": "introduction",
+      "index": 10,
+      "title": "Introduction",
+      "kind": "step",
+      "source": "empty",
+      "reset": "clear",
+      "editable": true,
+      "placeholder": "How will you introduce the lesson?"
+    },
+    {
+      "key": "step1",
+      "index": 10,
+      "title": "Step 1",
+      "kind": "step",
+      "source": "derived",
+      "reset": "source",
+      "editable": true,
+      "placeholder": "Step 1"
+    },
+    {
+      "key": "step2",
+      "index": 10,
+      "title": "Step 2",
+      "kind": "step",
+      "source": "empty",
+      "reset": "clear",
+      "editable": true,
+      "placeholder": "Step 2"
+    },
+    {
+      "key": "step3",
+      "index": 10,
+      "title": "Step 3",
+      "kind": "step",
+      "source": "empty",
+      "reset": "clear",
+      "editable": true,
+      "placeholder": "Step 3"
+    },
+    {
+      "key": "conclusion",
+      "index": 10,
+      "title": "Conclusion",
+      "kind": "step",
+      "source": "empty",
+      "reset": "clear",
+      "editable": true,
+      "placeholder": "How will you close the lesson?"
+    },
+    {
+      "key": "extended",
+      "index": 11,
+      "title": "Extended Activities",
+      "kind": "text",
+      "source": "empty",
+      "reset": "clear",
+      "editable": true,
+      "placeholder": "Extended activity or assignment"
+    },
+    {
+      "key": "assessment",
+      "index": 11,
+      "title": "Assessment",
+      "kind": "assessment",
+      "source": "source",
+      "reset": "source",
+      "editable": true
+    },
+    {
+      "key": "reflection",
+      "index": 11,
+      "title": "Reflection",
+      "kind": "text",
+      "source": "empty",
+      "reset": "clear",
+      "editable": true,
+      "placeholder": "To be filled after teaching",
+      "hint": "Teacher fills this AFTER teaching."
+    }
+  ],
+  "assessment": {
+    "method": "Observation, oral questions",
+    "description": "Planned assessment from the curriculum rubric and appendix.",
+    "sampleItems": [],
+    "rubricIndicator": ""
+  },
+  "sidePanel": {
+    "title": "Source",
+    "readOnly": true,
+    "sourceLabel": "Source: By the end of the sub-strand, the learner should be able to:",
+    "shows": [
+      "strand",
+      "subStrand",
+      "week",
+      "lesson",
+      "outcomes",
+      "experiences",
+      "kiqs",
+      "competencies",
+      "values",
+      "pcis",
+      "appendixResources",
+      "rubric"
+    ]
+  },
+  "footer": {
+    "templateLine": "Template: {templateVersion}",
+    "generatedLine": "Generated: {generatedAt}"
+  }
+}

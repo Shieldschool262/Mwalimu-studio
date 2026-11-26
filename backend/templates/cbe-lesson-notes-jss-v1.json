@@ -1,0 +1,86 @@
+{
+  "version": "cbe-lesson-notes-jss-v1",
+  "kind": "lesson-notes",
+  "name": "CBE Lesson Notes - Junior School (Grade 7 - Grade 9)",
+  "title": "LESSON NOTES",
+  "gradeBand": "jss",
+  "grades": "Grade 7 - Grade 9",
+  "paperSize": "A4",
+  "landscape": false,
+  "shortSentences": false,
+  "picturePlaceholders": false,
+  "practiceCount": 5,
+  "bodySize": 9.8,
+  "headingSize": 11.5,
+  "sloHeading": "By the end of the lesson, you will be able to:",
+  "sections": [
+    {
+      "key": "title",
+      "title": "Lesson Notes",
+      "kind": "header",
+      "editable": true,
+      "hint": "Learner-facing title: Sub-Strand - Focus."
+    },
+    {
+      "key": "slo",
+      "title": "By the End of the Lesson",
+      "kind": "text",
+      "editable": true,
+      "placeholder": "By the end of the lesson, you will be able to: ..."
+    },
+    {
+      "key": "vocabulary",
+      "title": "Key Vocabulary",
+      "kind": "vocabulary",
+      "editable": true,
+      "hint": "Word + precise definition + example. Show where each word came from."
+    },
+    {
+      "key": "whatIs",
+      "title": "What is {focus}?",
+      "kind": "paragraphs",
+      "editable": true,
+      "placeholder": "Three or four full explanations with the key idea."
+    },
+    {
+      "key": "examples",
+      "title": "Examples",
+      "kind": "examples",
+      "editable": true,
+      "hint": "Kenyan contexts plus a diagram description where useful."
+    },
+    {
+      "key": "workedExample",
+      "title": "Worked Example",
+      "kind": "steps",
+      "editable": true,
+      "hint": "Numbered steps, formulas and working where relevant."
+    },
+    {
+      "key": "practice",
+      "title": "Try It Yourself",
+      "kind": "practice",
+      "editable": true,
+      "hint": "Five questions, easy to harder. Answers hidden by default."
+    },
+    {
+      "key": "remember",
+      "title": "Remember",
+      "kind": "remember",
+      "editable": true,
+      "hint": "One-line summary of the key idea."
+    },
+    {
+      "key": "footer",
+      "title": "Source",
+      "kind": "footer",
+      "editable": false
+    }
+  ],
+  "footer": {
+    "sourceLine": "Source: {source}",
+    "aiLine": "AI-enriched on {date} with Gemini",
+    "webLine": "Web examples: {urls}",
+    "teacherLine": "Teacher source: {teacher}"
+  }
+}

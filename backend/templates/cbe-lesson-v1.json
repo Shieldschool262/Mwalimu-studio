@@ -1,0 +1,241 @@
+{
+  "version": "cbe-lesson-v1",
+  "kind": "lesson",
+  "name": "KICD Lesson Plan (CBC)",
+  "title": "LESSON PLAN",
+  "landscape": false,
+  "paperSize": "A4",
+  "header": {
+    "fields": [
+      {
+        "key": "school",
+        "label": "Institution / School",
+        "source": "plan",
+        "required": true
+      },
+      {
+        "key": "grade",
+        "label": "Grade",
+        "source": "source",
+        "required": true
+      },
+      {
+        "key": "learningArea",
+        "label": "Learning Area",
+        "source": "source",
+        "required": true
+      },
+      {
+        "key": "term",
+        "label": "Term",
+        "source": "plan",
+        "required": true
+      },
+      {
+        "key": "year",
+        "label": "Year",
+        "source": "plan",
+        "required": true
+      },
+      {
+        "key": "date",
+        "label": "Date",
+        "source": "teacher",
+        "required": false
+      },
+      {
+        "key": "time",
+        "label": "Time",
+        "source": "teacher",
+        "required": false
+      },
+      {
+        "key": "duration",
+        "label": "Duration (minutes)",
+        "source": "teacher",
+        "required": true
+      },
+      {
+        "key": "classSize",
+        "label": "Class Size",
+        "source": "teacher",
+        "required": false
+      },
+      {
+        "key": "teacherName",
+        "label": "Teacher Name",
+        "source": "plan",
+        "required": false
+      },
+      {
+        "key": "tscNo",
+        "label": "TSC No.",
+        "source": "plan",
+        "required": false
+      },
+      {
+        "key": "strand",
+        "label": "Strand",
+        "source": "source",
+        "required": true
+      },
+      {
+        "key": "subStrand",
+        "label": "Sub-Strand",
+        "source": "source",
+        "required": true
+      },
+      {
+        "key": "week",
+        "label": "Week",
+        "source": "scheme",
+        "required": true
+      },
+      {
+        "key": "lesson",
+        "label": "Lesson",
+        "source": "scheme",
+        "required": true
+      },
+      {
+        "key": "focus",
+        "label": "Lesson Focus",
+        "source": "derived",
+        "required": true
+      }
+    ]
+  },
+  "sections": [
+    {
+      "key": "outcomes",
+      "index": 1,
+      "title": "Specific Learning Outcomes",
+      "provenance": "source",
+      "verbatim": true,
+      "editable": false,
+      "note": "Focus outcome for this single lesson, taken verbatim from the scheme row."
+    },
+    {
+      "key": "kiq",
+      "index": 2,
+      "title": "Key Inquiry Question (KIQ)",
+      "provenance": "source",
+      "verbatim": true,
+      "editable": false,
+      "note": "Verbatim from the scheme row. AI never changes it."
+    },
+    {
+      "key": "resources",
+      "index": 3,
+      "title": "Learning Resources",
+      "provenance": "source",
+      "verbatim": true,
+      "editable": false,
+      "note": "Verbatim from the scheme row / curriculum appendix."
+    },
+    {
+      "key": "introduction",
+      "index": 4,
+      "title": "Introduction",
+      "provenance": "teacher",
+      "editable": true,
+      "alwaysEmptyOnCreate": true,
+      "placeholder": "How will you hook learners?"
+    },
+    {
+      "key": "step1",
+      "index": 5,
+      "title": "Step 1",
+      "provenance": "source-derived",
+      "editable": true,
+      "placeholder": "Step 1 - teacher to plan"
+    },
+    {
+      "key": "step2",
+      "index": 5,
+      "title": "Step 2",
+      "provenance": "empty",
+      "editable": true,
+      "placeholder": "Step 2 - teacher to plan"
+    },
+    {
+      "key": "step3",
+      "index": 5,
+      "title": "Step 3",
+      "provenance": "empty",
+      "editable": true,
+      "placeholder": "Step 3 - teacher to plan"
+    },
+    {
+      "key": "extended",
+      "index": 6,
+      "title": "Extended Activity / Assignment",
+      "provenance": "teacher",
+      "editable": true,
+      "placeholder": "Extended activity or assignment"
+    },
+    {
+      "key": "conclusion",
+      "index": 7,
+      "title": "Conclusion",
+      "provenance": "teacher",
+      "editable": true,
+      "placeholder": "How will you close the lesson?"
+    },
+    {
+      "key": "reflection",
+      "index": 8,
+      "title": "Reflection",
+      "provenance": "teacher",
+      "editable": true,
+      "alwaysEmptyOnCreate": true,
+      "placeholder": "To be filled after teaching"
+    }
+  ],
+  "assessment": {
+    "planned": {
+      "key": "planned",
+      "title": "Planned Assessment (from Rubric)",
+      "source": "rubric",
+      "editable": false
+    },
+    "evidence": {
+      "key": "assessmentEvidence",
+      "title": "Assessment Evidence",
+      "source": "teacher",
+      "editable": true,
+      "placeholder": "Record what learners demonstrated"
+    },
+    "differentiation": {
+      "key": "differentiation",
+      "source": "rubric",
+      "levels": [
+        "Support",
+        "Extension"
+      ],
+      "editable": false
+    }
+  },
+  "sidePanel": {
+    "title": "Source",
+    "readOnly": true,
+    "shows": [
+      "strand",
+      "subStrand",
+      "week",
+      "lesson",
+      "outcomes",
+      "experiences",
+      "kiqs",
+      "competencies",
+      "values",
+      "pcis",
+      "appendixResources",
+      "rubric"
+    ]
+  },
+  "footer": {
+    "templateLine": "Template: {templateVersion}",
+    "generatedLine": "Generated: {generatedAt}"
+  }
+}

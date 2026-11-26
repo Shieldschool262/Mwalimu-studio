@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Database (local curriculum data - never commit)
+*.db
+*.db-journal
+*.db-wal
+*.db.bak*
+
+# Local secrets + runtime data
+.env
+!.env.example
+backend/settings.json
+backend/.jwt_secret
+backend/uploads/
+backend/exports/
+backend/jobs/
+backend/_test_uploads*/
+*.log
+
+# Assistant workspace metadata
+.workbuddy-ai/
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

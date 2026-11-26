@@ -1,0 +1,86 @@
+{
+  "version": "cbe-lesson-notes-v1",
+  "kind": "lesson-notes",
+  "name": "CBE Lesson Notes - Primary (PP1 - Grade 6)",
+  "title": "LESSON NOTES",
+  "gradeBand": "primary",
+  "grades": "PP1 - Grade 6",
+  "paperSize": "A4",
+  "landscape": false,
+  "shortSentences": true,
+  "picturePlaceholders": true,
+  "practiceCount": 4,
+  "bodySize": 11.5,
+  "headingSize": 13.0,
+  "sloHeading": "By the end of the lesson, you will be able to:",
+  "sections": [
+    {
+      "key": "title",
+      "title": "Lesson Notes",
+      "kind": "header",
+      "editable": true,
+      "hint": "Learner-facing title: Sub-Strand - Focus."
+    },
+    {
+      "key": "slo",
+      "title": "By the End of the Lesson",
+      "kind": "text",
+      "editable": true,
+      "placeholder": "By the end of the lesson, you will be able to: ..."
+    },
+    {
+      "key": "vocabulary",
+      "title": "Key Vocabulary",
+      "kind": "vocabulary",
+      "editable": true,
+      "hint": "Word + simple definition + example. Show where each word came from."
+    },
+    {
+      "key": "whatIs",
+      "title": "What is {focus}?",
+      "kind": "paragraphs",
+      "editable": true,
+      "placeholder": "Two or three short paragraphs in simple English."
+    },
+    {
+      "key": "examples",
+      "title": "Examples",
+      "kind": "examples",
+      "editable": true,
+      "hint": "Use Kenyan objects: bottle tops, stones, fruits, shillings, matatu, shamba."
+    },
+    {
+      "key": "workedExample",
+      "title": "Worked Example",
+      "kind": "steps",
+      "editable": true,
+      "hint": "Number the steps 1-2-3."
+    },
+    {
+      "key": "practice",
+      "title": "Try It Yourself",
+      "kind": "practice",
+      "editable": true,
+      "hint": "Easy to harder. Answers are hidden until the teacher shows them."
+    },
+    {
+      "key": "remember",
+      "title": "Remember",
+      "kind": "remember",
+      "editable": true,
+      "hint": "One-line summary."
+    },
+    {
+      "key": "footer",
+      "title": "Source",
+      "kind": "footer",
+      "editable": false
+    }
+  ],
+  "footer": {
+    "sourceLine": "Source: {source}",
+    "aiLine": "AI-enriched on {date} with Gemini",
+    "webLine": "Web examples: {urls}",
+    "teacherLine": "Teacher source: {teacher}"
+  }
+}
