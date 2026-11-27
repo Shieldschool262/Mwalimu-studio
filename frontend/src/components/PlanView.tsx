@@ -690,7 +690,7 @@ export default function PlanView({
       ) : null}
 
       <section className="card overflow-hidden p-0" data-testid="scheme-table-card">
-        <div className="overflow-x-auto">
+        <div className="max-h-[calc(100vh-140px)] overflow-auto overscroll-contain" data-testid="scheme-table-scroll">
           <table className="scheme-table w-full min-w-[1500px] border-collapse text-[12px]" data-testid="scheme-table">
             <colgroup>
               {COLUMNS.map((col) => (

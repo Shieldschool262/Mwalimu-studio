@@ -122,11 +122,12 @@
 
 /* -------------------------------------------------------------------------- */
 /* Format polish: Scheme table headers stay readable on scroll and on paper.  */
-/* Top offset clears the app's sticky 92px header so the row is never hidden. */
+/* The table owns a vertical scroll area, so top:0 keeps the header at the top
+   of that area instead of pushing it down over Week 1 content.               */
 /* -------------------------------------------------------------------------- */
 .scheme-table thead .scheme-th {
   position: sticky;
-  top: 92px;
+  top: 0;
   z-index: 20;
   background: #1f4e79;
   color: #fff;
